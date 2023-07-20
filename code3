@@ -6,3 +6,5 @@ Step 5:  GCD = b
 Step 6: Finish
 
 T(n) = T(n-1) + O(1)
+
+the time complexity of the iterative GCD algorithm is O(log(min(a, b))).
