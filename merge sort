@@ -33,7 +33,7 @@ void merge(int arr[], int left, int middle, int right) {
         arr[p] = temp[p];
 }
 
-// Merge sort function
+
 void mergeSort(int arr[], int left, int right) {
     if (left < right) {
         int middle = left + (right - left) / 2;
