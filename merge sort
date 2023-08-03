@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function to merge two subarrays of arr[]
+
 void merge(int arr[], int left, int middle, int right) {
     int i = left, j = middle + 1, k = left; // Step 1
 
