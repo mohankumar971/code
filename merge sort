@@ -63,3 +63,8 @@ int main() {
 
     return 0;
 }
+
+
+Best Case: O(n log n)
+Average Case:O(n log n)
+worst case:O(n log n)
