@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-// Function to swap two elements
+
 void swap(int* a, int* b) {
     int temp = *a;
     *a = *b;
     *b = temp;
 }
 
-// Partition function
+
 int Partition(int arr[], int s, int e) {
     int pivot = arr[e];
     int pIndex = s;
@@ -23,7 +23,7 @@ int Partition(int arr[], int s, int e) {
     return pIndex;
 }
 
-// QuickSort function
+
 void QuickSort(int arr[], int s, int e) {
     if (s < e) {
         int p = Partition(arr, s, e);
